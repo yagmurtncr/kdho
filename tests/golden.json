@@ -1,0 +1,164 @@
+[
+ {
+  "ref": "ali eve geldi",
+  "hyp": "ali eve gelmedi",
+  "cost": 1.0,
+  "n": 3
+ },
+ {
+  "ref": "evlerde geldik",
+  "hyp": "evlerden geldik",
+  "cost": 0.25,
+  "n": 2
+ },
+ {
+  "ref": "evlerde oturuyoruz",
+  "hyp": "okullarda oturuyoruz",
+  "cost": 1.0,
+  "n": 2
+ },
+ {
+  "ref": "bu kitapları yarın okumayacağım",
+  "hyp": "bu kitabı yarın okuyacağım",
+  "cost": 1.25,
+  "n": 4
+ },
+ {
+  "ref": "yapmalı",
+  "hyp": "yapmamalı",
+  "cost": 1.0,
+  "n": 1
+ },
+ {
+  "ref": "gidebilir",
+  "hyp": "gidemez",
+  "cost": 1.0,
+  "n": 1
+ },
+ {
+  "ref": "bu doğru değil",
+  "hyp": "bu doğru",
+  "cost": 1.0,
+  "n": 3
+ },
+ {
+  "ref": "ankara'ya gittik",
+  "hyp": "ankaraya gittik",
+  "cost": 0.0,
+  "n": 2
+ },
+ {
+  "ref": "çocuklar bahçede oynuyor",
+  "hyp": "çocuk bahçede oynuyordu",
+  "cost": 0.6666666666666666,
+  "n": 3
+ },
+ {
+  "ref": "hiçbir şey olmadı",
+  "hyp": "hiç bir şey olmadı",
+  "cost": 2.0,
+  "n": 3
+ },
+ {
+  "ref": "toplantı saat üçte başlayacak",
+  "hyp": "toplantı saat üçte başladı",
+  "cost": 0.5,
+  "n": 4
+ },
+ {
+  "ref": "öğretmenimiz bize ödev verdi",
+  "hyp": "öğretmeniniz bize ödev verdi",
+  "cost": 0.25,
+  "n": 4
+ },
+ {
+  "ref": "okuma kitabı aldım",
+  "hyp": "okumaz kitabı aldım",
+  "cost": 1.0,
+  "n": 3
+ },
+ {
+  "ref": "kapıyı kapatmayı unutma",
+  "hyp": "kapıyı kapatmayı unut",
+  "cost": 0.0,
+  "n": 3
+ },
+ {
+  "ref": "güzel bir gün",
+  "hyp": "güzel bir gün",
+  "cost": 0.0,
+  "n": 3
+ },
+ {
+  "ref": "yarın yağmur yağacak",
+  "hyp": "yarın yağmur yağmayacak",
+  "cost": 1.0,
+  "n": 3
+ },
+ {
+  "ref": "annem pazardan elma aldı",
+  "hyp": "annem pazardan elmalar aldı",
+  "cost": 0.5,
+  "n": 4
+ },
+ {
+  "ref": "sınavı geçemedim",
+  "hyp": "sınavı geçtim",
+  "cost": 1.0,
+  "n": 2
+ },
+ {
+  "ref": "xyzqw geldi",
+  "hyp": "qwxyz geldi",
+  "cost": 1.0,
+  "n": 2
+ },
+ {
+  "ref": "istanbul'da yaşıyorum",
+  "hyp": "istanbulda yaşıyordum",
+  "cost": 0.16666666666666666,
+  "n": 2
+ },
+ {
+  "ref": "",
+  "hyp": "boş referans",
+  "cost": 0.0,
+  "n": 0
+ },
+ {
+  "ref": "tek",
+  "hyp": "tek kelime fazla",
+  "cost": 2.0,
+  "n": 1
+ },
+ {
+  "ref": "kırk sekiz saat sürdü",
+  "hyp": "sekiz saat sürdü",
+  "cost": 1.0,
+  "n": 4
+ },
+ {
+  "ref": "evlerimizden",
+  "hyp": "evimizden",
+  "cost": 0.16666666666666666,
+  "n": 1
+ },
+ {
+  "ref": "gelmiyorsun",
+  "hyp": "geliyorsun",
+  "cost": 1.0,
+  "n": 1
+ },
+ {
+  "ref": "arkadaşlarımla sinemaya gittim",
+  "hyp": "arkadaşlarımla sinemaya gittik",
+  "cost": 0.25,
+  "n": 3
+ },
+ {
+  "ref": "şehrin merkezinde",
+  "hyp": "şehir merkezinde",
+  "cost": 0.25,
+  "n": 2
+ }
+]

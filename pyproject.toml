@@ -9,7 +9,7 @@ description = "KDHO: a root- and affix-aware word error rate for Turkish speech 
 readme = "README.md"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [{ name = "Nur Yağmur Tuncer" }]
 keywords = ["turkish", "asr", "speech recognition", "wer", "evaluation", "morphology", "metric"]
 classifiers = [

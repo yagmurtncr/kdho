@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kdho"
+version = "0.1.2"
+description = "KDHO: a root- and affix-aware word error rate for Turkish speech recognition"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+authors = [{ name = "Nur Yağmur Tuncer" }]
+keywords = ["turkish", "asr", "speech recognition", "wer", "evaluation", "morphology", "metric"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: Turkish",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
+# zeyrek is pinned: kdho patches three internals of 0.1.3 (see kdho/_zeyrek.py)
+dependencies = ["zeyrek==0.1.3", "jiwer>=3.0", "nltk>=3.8"]
+
+[project.urls]
+Homepage = "https://github.com/yagmurtncr/kdho"
+Issues = "https://github.com/yagmurtncr/kdho/issues"
+Leaderboard = "https://huggingface.co/spaces/yagmurtuncer/turkish-asr-leaderboard"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+kdho = "kdho.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/kdho"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,6 +1,12 @@
 # kdho
 
 [![tests](https://github.com/yagmurtncr/kdho/actions/workflows/tests.yml/badge.svg)](https://github.com/yagmurtncr/kdho/actions/workflows/tests.yml)
+[![PyPI](https://img.shields.io/pypi/v/kdho)](https://pypi.org/project/kdho/)
+[![Hugging Face demo](https://img.shields.io/badge/%F0%9F%A4%97%20demo-yagmurtuncer%2Fkdho-yellow)](https://huggingface.co/spaces/yagmurtuncer/kdho)
+
+**Links:** [PyPI](https://pypi.org/project/kdho/) · [Try it in the browser (Hugging Face)](https://huggingface.co/spaces/yagmurtuncer/kdho) ·
+[Hugging Face `evaluate`](https://huggingface.co/spaces/yagmurtuncer/kdho): `evaluate.load("yagmurtuncer/kdho")` ·
+[Turkish ASR Leaderboard](https://huggingface.co/spaces/yagmurtuncer/turkish-asr-leaderboard) (KDHO column for 26 models)
 
 **KDHO** (*Kök ve Ek Duyarlı Hata Oranı*, Root- and Affix-Aware Error Rate) is a word error rate for Turkish speech
 recognition that understands morphology.
